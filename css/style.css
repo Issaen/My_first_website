@@ -6,14 +6,17 @@ body {
 .photo {
     background: url(../image/photo.jpg) no-repeat center center;
     background-size: 100%;
-    width: 700px;
-    height: 700px;
+    width: 400px;
+    height: 400px;
+    
 }
+
 .p1 {
     background: url(../image/photo2.jpg) no-repeat center center;
     background-size: 100%;
     width: 100px;
     height: 100px;
+    
 }
 
 .nav_bar {
@@ -28,6 +31,9 @@ body {
 .col-8 {
 }
 .col-4 {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
 }
 .col-3.nav_logo {
 }
@@ -41,5 +47,34 @@ body {
 .img_size {
 }
 .title_photo {
+    
+}
+.button_js {
     text-align: center;
+}
+#myButton {
+    border: none;
+    border-radius: 15px;
+    width: 150px;
+    height: 50px;
+    background-color: rgb(119, 18, 111);
+    color: bisque;
+    font-weight: bold;
+}
+#demo img {
+    margin-top: 20px;
+    width: 25%;
+}
+.containerP {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.containerM {
+    align-items: center;
+    text-align: center;
+    justify-content: right;
+    display: flex;
+
+ flex: 0 0 33.3%
 }
